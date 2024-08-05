@@ -11,22 +11,3 @@ export const makePottery = (shape, weight, height) => {
 
     return pottery
 }
-
-
-// const potteryPrimaryKey = 1
-
-
-// export const makePottery = (shape, weight, height) => {
-//     const pottery = {
-//         shape: "",
-//         weight: "",
-//         height: "",
-//         id: potteryPrimaryKey,
-//     };
-
-
-//     potteryPrimaryKey += 1;
-
-
-//     return pottery
-// }
