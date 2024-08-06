@@ -120,9 +120,7 @@ In the `main.js` module, invoke the `PotteryList` component function. Take its r
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review. 
 
 1. Explain how you got the HTML, with the correct data, displayed in the browser?
-   > Your answer here: In main.js we are creating a variable called potteryHTML and set it to call the 'potteryList()' function that were are importing from PotteryList.js. That function then uses the array of pottery objects from the 'usePottery()'function and converts each pottery object to an HTML string.
-
-   After that function is called and ran we than render that into the DOM by using document.querySelector() and set the class to .potteryList. That will select where in the DOM the HTML will be displayed. Then we set the property of document.querySelector to 
+   > Your answer here: In main.js we are creating a variable called potteryHTML and set it to call the 'potteryList()' function that were are importing from PotteryList.js. That function then uses the array of pottery objects from the 'usePottery()'function and converts each pottery object to an HTML string. After that function is called and ran we than render that into the DOM by using document.querySelector() and set the class to .potteryList. That will select where in the DOM the HTML will be displayed. Then we set the property of document.querySelector to 
    .innerHTML.
 
    
@@ -135,11 +133,10 @@ In the `main.js` module, invoke the `PotteryList` component function. Take its r
 
 
 4. The pottery shop has learned that there is a set of customers that are willing to buy cracked pottery at a discounted price of $2.50. That means that the cracked pottery should now be displayed in the catalog. Explain the changes that this new business strategy would cause to your algorithm.
-   > Your answer here: In the PotteryCatalog.js module instead of having the  toSellOrNotToSell returning pottery and not pushing it to the potteryToSell array, we can change the function using an if else statement to first check if the pottery has the cracked = true value. If it does, we set the price property of the pottery object to 2.50 using pottery.price and then push it into the potteryToSell array. 
-
-   If the pottery does not have the cracked = true value, it continues in the if else statement. Here the code is basically the seem as before where it first checks if the pottery weight is >= to 6. If it is then we set the price to 40 and push it into the array. If not we set the price of the pottery object to 20 and than push it into the array. 
+   > Your answer here: In the PotteryCatalog.js module instead of having the  toSellOrNotToSell returning pottery and not pushing it to the potteryToSell array, we can change the function using an if else statement to first check if the pottery has the cracked = true value. If it does, we set the price property of the pottery object to 2.50 using pottery.price and then push it into the potteryToSell array. If the pottery does not have the cracked = true value, it continues in the if else statement. Here the code is basically the seem as before where it first checks if the pottery weight is >= to 6. If it is then we set the price to 40 and push it into the array. If not we set the price of the pottery object to 20 and than push it into the array. 
 
     I've written out the code in a comment in my PotterCatalog.js module.
 
 5. In the **Kiln** module, you have a `firePottery()` function. You need to demonstrate how to use the debugger to verify the values of the parameters for that function when your code runs. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
    > Paste your video's public URL here: https://www.loom.com/share/a3728854641143b581d3bae3a2fdaab0?sid=0d6ab7e8-6698-4aab-897d-6f678605bf3d
+
